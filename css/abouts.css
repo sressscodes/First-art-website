@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+header{
+  background-color: #1c0522;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+header .logo{
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+header ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul li{
+  list-style: none;
+  margin-left: 20px;
+}
+header ul li a{
+  color: #fff;
+  padding: 5px 14px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 2px;  
+  border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a.active{
+  background: #fff;
+  color: #2b1055;
+}
+.about{
+  width: 100%;
+  padding: 78px 0px;
+  background-color: #1c0522;
+}
+.about img{
+  height: auto;
+  width: 350px;
+}
+.about-text{
+  width: 600px;
+  height: 600px;
+  margin-top: 50px;
+}
+.main{
+  width: 1130px;
+  max-width: 95%;
+  margin-top: 10px;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-text h1{
+  color: #fff;
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.about-text h5{
+  color: #fff;
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+span{
+  color: #aca3ae;
+}
+.about-text p{
+  color: #fff;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 14px;
+  margin-bottom: 45px;
+}
+button{
+  background: #1c0522;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #fff;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: .4s;
+}
+button:hover{
+  background: #fff;
+  border: 2px solid #1c0522;
+  cursor: pointer;
+  color: #1c0522;
+}
+
+.footer img{
+  width: 35px;
+  position: static;
+  margin: 0px 10px 0px 10px;
+}
+.social{
+  text-align: center;
+}
+
+.footer {
+  padding: 30px;
+  height: 140px;
+  text-align: center;
+  display: block;
+  position: static;
+  background-color: #200c3c;
+  color: #fff;
+}
+
+.footer p{
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

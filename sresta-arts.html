@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Srestaa_arts</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style type="text/css">
+		body{
+			min-height: 989px;
+			overflow-x: hidden;
+			background: linear-gradient(#2b1055,#7597de);
+			} 
+	</style>
+</head>
+<body>
+	<header>
+		<a href="#" class="logo">Srest^_^rts</a>
+		<ul>
+			<li><a href="sresta-arts.html" class="active">Home</a></li>
+			<li><a href="potraits.html">Potraits</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</header>
+	<section>
+		<img src="img/purplemoon.svg" id="purplemoon">
+		<img src="img/hills.png" id="hills">
+		<h2 id="text">Sresta Arts</h2>
+		<a href="https://www.instagram.com/srestaa_arts/" id="btn">Place an order</a>
+		<img src="img/castle.png" id="castle">
+	</section>
+	<div class="sec" id="sec">
+		<h2>potraits</h2>
+		<div class="slide hi-slide">
+			<div class="hi-prev"></div>
+			<div class="hi-next"></div>
+			<ul>
+				<li><img src="img/elf.jpg" id="elf"></li>
+				<li><img src="img/aurora.jpg" id="aurora"></li>		
+				<li><img src="img/harry.jpg" id="harry"></li>			
+				<li><img src="img/lady.jpg" id="lady"></li>
+				<li><img src="img/salvador.jpg" id="salvador"></li>
+				<li><img src="img/jared.jpg" id="jared"></li>			
+				<li><img src="img/lady.jpg" id="eye"></li>
+			</ul>
+		</div>
+	</div>
+	<section class="about">
+		<div class="main">
+			<img src="img/artist.jpeg">
+			<div class="about-text">
+				<br>
+				<h1>About artist</h1>
+				<h5>-Sresta <span>Bhattarai</span></h5>
+				<p>Hi its Sresta here! I am an enthusiastic self-taught artist. Ever since I was a kid I was quite passionate about art. But since the age of 17, I was completely composed on improving my artistic skill. In a short period of time, I was able to improve a lot. I started through scratch and now I am able to sell customized potraits through online, offline and many platforms. Through my art journey, I want to inspire others that even with less of a skill but more of a passion you can really improve your artistic ability by sharing with others and learning by your ownself. Currently 30% of the profit that I gain by selling art goes to animal cares like lifewithfurs and animafoundation.</p>
+				<a href="contact.html"><button type="button">Contact Us</button></a>
+			</div>
+		</div>
+	</section>
+
+	 <!-- footer Section Starts Here -->
+    <section class="footer">
+    	<div class="social">
+    		<img src="https://img.icons8.com/fluent/50/000000/facebook-new.png">
+    		<img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/>
+    		<img src="https://img.icons8.com/fluent/48/000000/twitter.png"/>
+        </div>
+        <div class="container text-center">
+            <p>All rights reserved | Designed By <a href="#">Sresta Bhattarai</a></p>
+        </div>
+    </section>
+    <!-- footer Section Ends Here -->
+
+	<script>
+		let purplemoon = document.getElementById('purplemoon');
+		let hills = document.getElementById('hills');
+		let text = document.getElementById('text');
+		let btn = document.getElementById('btn');
+		let castle = document.getElementById('castle');
+		let header = document.querySelector('header');
+
+		window.addEventListener('scroll',function(){
+			let value = window.scrollY;
+			purplemoon.style.top = value * 1 + 'px';
+			hills.style.top = value * 0.5 + 'px';
+			castle.style.top= value * 0 + 'px';
+			text.style.marginRight = value * 2 + 'px';
+			text.style.marginTop = value * 0.7 + 'px';
+			header.style.top = value * 0.5 + 'px';
+		})
+	</script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+		<script src="js/script.js"></script>
+		<script>
+		$('.slide').hiSlide();
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
